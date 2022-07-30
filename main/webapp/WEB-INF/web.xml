@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <display-name>DataServer</display-name>
+  <servlet>
+    <servlet-name>s1</servlet-name>
+    <servlet-class>Login1</servlet-class>   
+  </servlet>
+  
+  <servlet-mapping>
+   <servlet-name>s1</servlet-name>
+   <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>s2</servlet-name>
+    <servlet-class>Register1</servlet-class>   
+  </servlet>
+  
+  <servlet-mapping>
+   <servlet-name>s2</servlet-name>
+   <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>s3</servlet-name>
+    <servlet-class>Blood</servlet-class>   
+  </servlet>
+  
+  <servlet-mapping>
+   <servlet-name>s3</servlet-name>
+   <url-pattern>/Submit</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>s4</servlet-name>
+    <servlet-class>main</servlet-class>   
+  </servlet>
+  
+  
+  <servlet>
+    <servlet-name>s5</servlet-name>
+    <servlet-class>Information</servlet-class>   
+  </servlet>
+  
+  <servlet-mapping>
+   <servlet-name>s5</servlet-name>
+   <url-pattern>/select</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>s6</servlet-name>
+    <servlet-class>Update</servlet-class>   
+  </servlet>
+  
+  <servlet-mapping>
+   <servlet-name>s6</servlet-name>
+   <url-pattern>/update detail</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>s7</servlet-name>
+    <servlet-class>update1</servlet-class>   
+  </servlet>
+  
+  <servlet-mapping>
+   <servlet-name>s7</servlet-name>
+   <url-pattern>/Update</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>s8</servlet-name>
+    <servlet-class>Delete</servlet-class>   
+  </servlet>
+  
+  <servlet-mapping>
+   <servlet-name>s8</servlet-name>
+   <url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>s9</servlet-name>
+    <servlet-class>doctorDetail</servlet-class>   
+  </servlet>
+  
+  <servlet-mapping>
+   <servlet-name>s9</servlet-name>
+   <url-pattern>/Appoinment</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>s10</servlet-name>
+    <servlet-class>doctorDetail2</servlet-class>   
+  </servlet>
+  
+  <servlet-mapping>
+   <servlet-name>s10</servlet-name>
+   <url-pattern>/Doctor Login</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+    <servlet-name>s12</servlet-name>
+    <servlet-class>bill</servlet-class>   
+  </servlet>
+  
+  <servlet-mapping>
+   <servlet-name>s12</servlet-name>
+   <url-pattern>/Check</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>s13</servlet-name>
+    <servlet-class>doctor3</servlet-class>   
+  </servlet>
+  
+  <servlet-mapping>
+   <servlet-name>s13</servlet-name>
+   <url-pattern>/Patient1</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>s14</servlet-name>
+    <servlet-class>lab</servlet-class>   
+  </servlet>
+  
+  <servlet-mapping>
+   <servlet-name>s14</servlet-name>
+   <url-pattern>/Book</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>s15</servlet-name>
+    <servlet-class>cure</servlet-class>   
+  </servlet>
+  
+  <servlet-mapping>
+   <servlet-name>s15</servlet-name>
+   <url-pattern>/Click Button</url-pattern>
+  </servlet-mapping>
+  
+   
+  
+  <servlet>
+    <servlet-name>s17</servlet-name>
+    <servlet-class>D1</servlet-class>   
+  </servlet>
+  
+  <servlet-mapping>
+   <servlet-name>s17</servlet-name>
+   <url-pattern>/Delete Doctor Detail</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>s18</servlet-name>
+    <servlet-class>D2</servlet-class>   
+  </servlet>
+  
+  <servlet-mapping>
+   <servlet-name>s18</servlet-name>
+   <url-pattern>/Doctor Detail</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>s19</servlet-name>
+    <servlet-class>D3</servlet-class>   
+  </servlet>
+  
+  <servlet-mapping>
+   <servlet-name>s19</servlet-name>
+   <url-pattern>/Update Doctor Detail</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>s20</servlet-name>
+    <servlet-class>D4</servlet-class>   
+  </servlet>
+  
+  <servlet-mapping>
+   <servlet-name>s20</servlet-name>
+   <url-pattern>/Update Detail</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>s21</servlet-name>
+    <servlet-class>logout</servlet-class>   
+  </servlet>
+  
+  <servlet-mapping>
+   <servlet-name>s21</servlet-name>
+   <url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>s22</servlet-name>
+    <servlet-class>logout1</servlet-class>   
+  </servlet>
+  
+  <servlet-mapping>
+   <servlet-name>s22</servlet-name>
+   <url-pattern>/Logout1</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+</web-app>
